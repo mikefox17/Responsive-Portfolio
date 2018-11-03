@@ -172,105 +172,106 @@ footer {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 @media screen and (max-width: 960px) {
+  html {
+    min-height: 2000px;
+  }
 
-	html {
-		min-height: 2000px;
-	}
+  .header {
+    width: 700px;
+  }
 
-   .header {
-	   	width: 700px;
-   }
+  .container {
+    width: 700px;
+  }
 
-   .container {
-	   	width: 700px;
-   }
-
-   .nav {
+  .nav {
     width: auto;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
 }
 
-   .wrapper {
-	   	width: 400px;
+img {
+  max-width: 400px;
 
-   }
+  margin-bottom: 20px;
+}
 
-   #about, #portfolio, #contact {
-	   	width: 400px;
-   	
-   }
+@media (min-width: 400px) and (max-width: 768px) {
+  header h1 {
+    margin-top: 0;
+    padding: 0.6em;
+    text-align: center;
+  }
+  nav {
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
 
-   #profile_pic {
-	   	max-width: 400px;
-		padding-right: 0px;
-		margin-bottom:20px;
-   }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
 
-   @media (min-width: 400px) and (max-width: 768px) {
+  nav li {
+    display: inline;
+  }
 
-	header h1 {
-		margin-top: 0;
-		padding: .60em;
-		text-align: center;
-	}
-	nav {
+  nav a {
+    display: inline-block;
+    padding: 1em;
+    text-decoration: none;
+  }
 
-		font-size: 1.4em;
-		margin: 0;
-		padding: 0;
-		text-align: center;
-	}
-
-	nav ul {
-		margin: 0;
-		padding: 0;
-	}
-
-	nav li {
-		display: inline;
-	}
-
-	nav a {
-		display: inline-block;
-		padding: 1em;
-		text-decoration: none;
-	}
-
+  .contactwrapper {
+    width: 80%;
+  }
+  .box2 {
+    width: 70%;
+  }
+  #message {
+    width: 100%;
+  }
 }
 
 @media (min-width: 769px) {
-	header {
-		padding: .35em;
-		width: 100%;
-	}
+  header {
+    padding: 0.35em;
+    width: 100%;
+  }
 
-	header h1 {
-		display: inline;
-		margin-top: 0;
-	}
+  header h1 {
+    display: inline;
+    margin-top: 0;
+  }
 
-	header,
-	nav {
-		display: inline-block;
-	}
+  header,
+  nav {
+    display: inline-block;
+  }
 
-	nav {
-		float: right;
-		font-size: 1.5em;
-	}
+  nav {
+    float: right;
+    font-size: 1.5em;
+  }
 
-	nav ul {
-		margin: 0;
-		display: inline;
-		padding-right: .15em;
-	}
+  nav ul {
+    margin: 0;
+    display: inline;
+    padding-right: 0.15em;
+  }
 
-	nav ul li {
-		display: inline-block;
-		list-style: none;
-		padding: .36em 0.9375em;
-	}
+  nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0.36em 0.9375em;
+  }
 
-	nav a {
-		text-decoration: none;
-	}
+  nav a {
+    text-decoration: none;
+  }
 }
